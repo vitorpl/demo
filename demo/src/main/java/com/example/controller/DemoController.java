@@ -9,6 +9,7 @@ public class DemoController {
 
 	@RequestMapping
 	public String main() {
+		System.out.println("Test Git commit");
 		System.out.println("ok");
 		return "/index";
 	}
